@@ -14,6 +14,10 @@ C# .NET Framework 3.5 class library that builds and imports System Center Operat
 
 Open `VaderConsulting.SystemCenter.csproj` in Visual Studio 2013 or later (ToolsVersion 12.0). There is no `.sln` in this folder. The project references sibling `..\VaderConsulting.Helper\VaderConsulting.Helper.csproj`, SCOM 2012 SDK assemblies from System Center 2012 Visual Studio Authoring Extensions (`Microsoft.EnterpriseManagement.Core` / `Microsoft.EnterpriseManagement.OperationsManager` 7.0.5000.0 under `C:\Program Files\System Center 2012 Visual Studio Authoring Extensions\Tools\MPSimulator\OM2012\`), and GAC `System.Management.Automation` 1.0. `ServerUtilities.cs`, `ServerUtilities_backup.cs`, `ConnectionInfo.cs`, `ServiceInfo.cs`, `ManagementPackCreationOptions.cs`, and `ManagementPackSealOptions.cs` are present but not listed in the `.csproj` Compile items.
 
+## Requirements
+
+- Visual Studio 2013 or later, .NET Framework 3.5
+
 ## Attribution and provenance
 
 Working copy from Dave Robinson's OneDrive Historical Dev folder `VaderConsulting.SystemCenter`. Assembly title/product `VaderConsulting.OperationsManager`; the Visual Studio template still has company/copyright Microsoft 2015. Namespace `VaderConsulting.SystemCenter`. `packages.config` lists AsyncBridge 0.1.1; `App.config` has leftover Entity Framework 6 LocalDB section. Neither is referenced by the `.csproj`.
