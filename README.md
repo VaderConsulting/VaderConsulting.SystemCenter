@@ -20,7 +20,7 @@ Open `VaderConsulting.SystemCenter.csproj` in Visual Studio 2013 or later (Tools
 
 ## Attribution and provenance
 
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VaderConsulting.SystemCenter`. Assembly title/product `VaderConsulting.OperationsManager`; the Visual Studio template still has company/copyright Microsoft 2015. Namespace `VaderConsulting.SystemCenter`. `packages.config` lists AsyncBridge 0.1.1; `App.config` has leftover Entity Framework 6 LocalDB section. Neither is referenced by the `.csproj`.
+Working copy from my Historical Dev folder `VaderConsulting.SystemCenter`. Assembly title/product `VaderConsulting.OperationsManager`; the Visual Studio template still has company/copyright Microsoft 2015. Namespace `VaderConsulting.SystemCenter`. `packages.config` lists AsyncBridge 0.1.1; `App.config` has leftover Entity Framework 6 LocalDB section. Neither is referenced by the `.csproj`.
 
 ## License
 
